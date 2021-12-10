@@ -7,7 +7,6 @@
     <em:name>HelloZotero</em:name>
     <em:version>0.0.1</em:version>
     <em:type>2</em:type> <!-- type=extension -->
-    <em:multiprocessCompatible>false</em:multiprocessCompatible>
     <em:creator>Raimundo Saona</em:creator>
     <em:description>Basic Zotero plug-in development example</em:description>
     <em:homepageURL>https://github.com/saona-raimundo/HelloZotero</em:homepageURL>

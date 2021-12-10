@@ -55,6 +55,8 @@ Zotero uses the `.xpi` format for plugins. This is just another name for compres
 
 3. Install in Zotero.
 
+**Note:** Downloading a compressed file directly from GitHub will consist of a folder inside the compressed file download containing the repo. To compress this repo you will have to unzip it, enter the inner folder and zip it again.
+
 # Acknowledgements
 
 I thank everyone involved in the projects [ZotFile](https://github.com/jlegewie/zotfile) and [Zotero-plugins](https://github.com/dcartertod/zotero-plugins). Their plugins were very useful guidance.
