@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://hello_zotero/skin/overlay.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://hello_zotero/locale/overlay.dtd">
+
+<!-- Reference http://www.xulplanet.com/ -->
+
+<overlay id="hello_zotero-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	<!-- Include the main extension logic -->
+	<script src="chrome://zotero/content/include.js"/>
+	<script src="chrome://hello_zotero/content/include.js"/>
+</overlay>

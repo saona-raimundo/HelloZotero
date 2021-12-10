@@ -1,0 +1,6 @@
+content	hello_zotero				chrome/content/hello_zotero/
+skin	hello_zotero	default		chrome/skin/default/
+
+overlay	chrome://zotero/content/zoteroPane.xul	chrome://hello_zotero/content/overlay.xul
+
+locale hello_zotero en-US chrome/locale/en-US/

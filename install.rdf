@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>hello_zotero@saona-raimundo.github.io</em:id>
+    <em:name>HelloZotero</em:name>
+    <em:version>0.0.1</em:version>
+    <em:type>2</em:type> <!-- type=extension -->
+    <em:multiprocessCompatible>false</em:multiprocessCompatible>
+    <em:creator>Raimundo Saona</em:creator>
+    <em:description>Basic Zotero plug-in development example</em:description>
+    <em:homepageURL>https://github.com/saona-raimundo/HelloZotero</em:homepageURL>
+    <em:updateURL>https://raw.githubusercontent.com/saona-raimundo/HelloZotero/master/hello_zotero-update.rdf</em:updateURL>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>zotero@chnm.gmu.edu</em:id>
+        <em:minVersion>5.0.0</em:minVersion>
+        <em:maxVersion>5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>juris-m@juris-m.github.io</em:id>
+        <em:minVersion>4.999</em:minVersion>
+        <em:maxVersion>5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:localized>
+      <Description>
+        <em:locale>en-US</em:locale>
+        <em:name>HelloZotero</em:name>
+        <em:description>Basic Zotero plug-in development example</em:description>
+      </Description>
+    </em:localized>
+
+  </Description>
+</RDF>
