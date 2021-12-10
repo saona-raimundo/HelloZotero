@@ -20,7 +20,7 @@ Zotero.HelloZotero = new function() {
 	var _initialized = false;
 
 	 /**
-     * Initiate zoteropreview
+     * Initiate plugin
 	 * called from include.js
 	 * adds a select listener to the main window
      * @return {void}
