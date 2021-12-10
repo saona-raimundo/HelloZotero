@@ -5,7 +5,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>hello_zotero@saona-raimundo.github.io</em:id>
     <em:name>HelloZotero</em:name>
-    <em:version>0.0.1</em:version>
+    <em:version>0.0.2</em:version>
     <em:type>2</em:type> <!-- type=extension -->
     <em:creator>Raimundo Saona</em:creator>
     <em:description>Basic Zotero plug-in development example</em:description>
