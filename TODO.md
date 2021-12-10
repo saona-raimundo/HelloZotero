@@ -35,5 +35,5 @@
     - GitHub release
   
   - Updating
-  
+    
     - Automatic update(?)

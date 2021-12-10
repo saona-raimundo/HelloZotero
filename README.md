@@ -1,16 +1,16 @@
 Basic Zotero plug-in development example.
 
-## Goal
+# Goal
 
 Help those developing Zotero plug-ins for the first time.
 
-## Design
+# Design
 
 This is a "hello-world" example: a simple template with no real functionality.
 
 See [ZoteroPlugins](https://github.com/saona-raimundo/ZoteroPlugins), for a detailed guide of Zotero plugins.
 
-### Directory
+# Directory
 
 This is the directory structure.
 
@@ -44,6 +44,16 @@ This is the directory structure.
     - hello_zotero
       
       - include.js
+
+# Deployment
+
+Zotero uses the `.xpi` format for plugins. This is just another name for compressed files. You may
+
+1. Compress this repository, making sure that `install.rdf` and the `chrome` directory need to be at the root of the compressed folder.
+
+2. Change the extension by renaming the file so that it ends in `.xpi`.
+
+3. Install in Zotero.
 
 # Acknowledgements
 
