@@ -1,39 +1,15 @@
 # TODO
 
-[Plug-in development](https://www.zotero.org/support/dev/client_coding/plugin_development)
+- [ ] Continuous integration
 
-- Examples
+- [ ] Installation from GitHub
   
-  - [Small plugins](https://github.com/dcartertod/zotero-plugins)
-    
-    - Good start
-  
-  - [Hello world (official)](https://www.zotero.org/support/dev/sample_plugin) (outdated)
-    
-    - Good check up
-  
-  - [Zotfile](https://github.com/jlegewie/zotfile) (example plug-in)
+  - [ ] Where do you have to change all names?
 
-- Recommendations
-
-- Locate plugin name
+- [ ] Take a working example
   
-  - 
-
-- Do a hello_zotero repository in GitHub documenting all steps
+  - [ ] Strip it
   
-  - Basic structure of the plug-in
-    
-    - See examples
+  - [ ] Only alarm function
   
-  - Development environment setup
-    
-    - [Plug-in development](https://www.zotero.org/support/dev/client_coding/plugin_development) (read and write)
-  
-  - Publishing
-    
-    - GitHub release
-  
-  - Updating
-    
-    - Automatic update(?)
+  - [ ] Publish and install

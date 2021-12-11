@@ -15,7 +15,6 @@
                                 <em:updateLink>https://github.com/saona-raimundo/HelloZotero/releases/download/v0.0.1/HelloZotero-v0.0.1.xpi</em:updateLink>
                             </rdf:Description>
                         </em:targetApplication> 
-
                         <em:targetApplication>
                             <rdf:Description>
                                 <em:id>juris-m@juris-m.github.io</em:id>
@@ -24,7 +23,6 @@
                                 <em:updateLink>https://github.com/saona-raimundo/HelloZotero/releases/download/v0.0.1/HelloZotero-v0.0.1.xpi</em:updateLink>
                             </rdf:Description>
                         </em:targetApplication>
-
                     </rdf:Description>
                 </rdf:li>
             </rdf:Seq>

@@ -9,8 +9,6 @@ Apache License (Version 2.0).
 Contributions preferably through pull requests are welcome!
 */
 
-
-
 Zotero.HelloZotero = new function() {
 	
 	// Application fields
@@ -49,11 +47,12 @@ Zotero.HelloZotero = new function() {
 	this.say_hello = async function() {
 		Zotero.debug('HelloZotero: say_hello');
 		
-		// Here we have to use the Zotero JavaScript API
-		// Reference: https://www.zotero.org/support/dev/client_coding/javascript_api
-		var items = Zotero.getActiveZoteroPane().getSelectedItems();
-		Zotero.debug('HelloZotero: counting: ' + this.counter);
-		this.counter += 1;
+
+		window.alert('HelloZotero is running!');
+
+		// Here we can use the Zotero JavaScript API
+		// https://www.zotero.org/support/dev/client_coding/javascript_api
+		var items = Zotero.getActiveZoteroPane().getSelectedItems(); // example: getting all currently selected items. 
 
 		Zotero.debug('HelloZotero: say_hello done');
 	};	
